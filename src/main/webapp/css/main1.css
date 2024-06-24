@@ -1,0 +1,276 @@
+
+
+
+/*
+BACKGROUND IMAGES
+
+
+.backgroundimagetest {
+  background-image: url("img/backgrounds/ProvidencePostHomepage.jpg");
+  /*background-color: #cccccc;*/
+}
+
+*/
+
+/*  LIST OF SEARCH RESULTS */
+
+.results-photo {
+	display: inline-block;
+}
+
+.results-details {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.results-name{
+	
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.results-interest{
+	font-size: 1.3em;
+	
+}
+
+.person-row {
+	border: 1px solid orange;
+	margin-bottom: 1em;
+}
+
+
+.chat-message{
+	/*width: 70vw;*/
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px;
+}
+
+.chat-message-sent {
+	width: 70vw;
+	background-color: blue;
+}
+
+.chat-message-reply {
+	width: 60vw;
+	margin-left: 10vw;
+	background-color: yellow;
+}
+
+
+
+/* END LIST OF SEARCH RESULTS */
+
+
+
+
+.navbar-nav .navbar-right .nav-link {
+	padding-right: 5;
+	padding-left: 5;
+	margin-left: 5;
+	margin-right: 5;
+}
+
+
+
+.errors {
+	color: red
+}
+
+.navbar-super {
+	background-color: teal;
+}
+
+.navbar > .navbar-brand {
+	background-color: teal;
+	color: white;
+}
+
+.boobs {
+	color: pink !important;
+}
+
+.pagination {
+	margin-top: 20px;
+	margin-bottom:  40px;
+}
+
+.homepage-status {
+	text-align: center;
+	margin-top: 30px;
+	font-size: larger;
+}
+
+
+.status-row{
+	margin-top: 4em;
+	margin-bottom: 6em;
+}
+
+.message {
+	font-size: larger;
+	margin-top: 50px;	
+}
+
+.profile-about {
+	width: 100%;
+	border:  1px solid gray;
+	padding:  50px;
+	margin-top:  10px;
+	overflow:  auto;
+}
+	
+.profile-text{
+	font-size: larger;
+	
+}
+
+.profile-image{
+	float: left;
+	border: 20px black;
+	margin-bottom:  10px;
+	margin-top:  10px;
+	margin-right:  10px;
+}
+
+
+.profile-about-edit{
+	position: absolute;
+	bottom: 10px;
+	right:  50px;	
+}
+
+#profile-photo-status{
+	
+	position:  absolute;
+	top: 10px;
+	left: 30px;
+	font-weight: bold;
+	color: green;
+	
+}
+
+#photoUploadForm{
+	display: none;
+}
+
+ul#interestList {
+	border: 1px solid gray;
+}
+
+ul.tagit > li.tagit-choice {
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+ul#interestList a.tagit-close > span.text-icon {
+	display: inline;
+	color: yellow;
+	padding: 6px;
+	font-size: 1.1em;
+}
+
+ul#interestList a.tagit-close:hover > span.text-icon {
+	color: blue;
+	}
+	
+ul#interestList a.tagit-close:hover{
+	text-decoration: none;
+}
+
+div[role=status]{
+	display: none;
+}
+
+#ui-id-1{
+	display: none !important;
+}
+
+#search-button{
+	background-color: aqua;
+	text-shadow: 1px 1px 0px #888888;
+}
+
+#search-button:hover{
+	background-color: organge;
+	color: yellow;
+}
+
+/*------------------------------*/
+
+
+.collapse navbar-collapse > .nav-item > .nav-link {
+	background-color: green;
+	color: black;
+
+}
+
+.nav-item-super  {
+	background-color: white;
+	color: black;
+}
+
+.nav-item > .nav-link {
+	 /* background-color: white;  */
+	color: black;
+	
+}
+
+.edit-links{
+	margin-top: 10px
+}
+
+.login-form{
+	width: 100%
+}
+
+.register-prompt{
+	font-size: 1.3em;
+	text-align: center;
+	padding: 20px;
+}
+  
+.login-form > div{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.login-form > div > button {
+	
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	border-color: blue;
+	 
+}
+
+.login-error {
+	margin-top: 10px;
+	margin-top: 10px;
+	color: red;
+}
+
+/*------------------------------*/
+
+.collapse navbar-collapse > ul > li {
+	background-color: pink;
+{
+
+.collapse navbar-collapse > ul > li > .nav-item dropdown > .dropdown-menu{
+	background-color: yellow;
+{
+
+.collapse navbar-collapse > ul > li > .nav-item dropdown > .dropdown-menu > .dropdown-divider{
+	background-color: green;
+{
+
+.collapse navbar-collapse > ul > li > .nav-item dropdown > .dropdown-menu > .dropdown-divider > .dropdown-item{
+	background-color: orange;
+{

@@ -1,0 +1,418 @@
+
+
+
+/*-------------------------Bootstrap 3 Navbar styling ----------------------------*/
+
+/***********  cosmetics patching ************/
+
+.my-nav-extras-logo {
+	font-size: 1.3rem;
+}
+
+.my-nav-extras-r {
+	padding-right: 8px;
+	padding-left: 12px;
+}
+
+#banner-image {
+	margin-top: 10%;
+}
+
+
+.move-search-down {
+	margin-top: 72%;
+}
+
+
+
+
+
+
+
+
+
+
+.navbar {
+	background-color: #ffcc5c;
+	border-color: magenta;
+}
+
+
+
+
+
+.navbar > .container > div > .navbar-nav > li > a {
+	background: none;
+	color: white;
+	font-weight: bold;
+}
+
+.navbar > .container > div > .navbar-nav > li > a:hover {
+	background: none;
+	color: yellow;
+	font-weight: bold;
+}
+
+.navbar > .container > .navbar-header > a {
+	background: none;
+	color: purple;
+	font-weight: bold;
+	font-size: larger;
+}
+
+a.navbar-brand {
+	font-size: 20px;
+}
+
+
+
+.navbar > .container > .navbar-header > a:hover {
+	background: none;
+	color: yellow;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .open > a {
+	background: none !important;
+	color: yellow;
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+	color: white;
+}
+
+
+
+/* List of results */
+
+.results-photo {
+	display: inline-block;
+}
+
+.results-details {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.results-name {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.results-interests {
+	font-size: 1.3em;
+}
+
+.person-row {
+	border: 1px solid orange;
+	margin-bottom: 1em;
+}
+
+
+.chat-message{
+	/*width: 70vw;*/
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px;
+}
+
+.chat-message-sent {
+	width: 70vw;
+	background-color: blue;
+}
+
+.chat-message-reply {
+	width: 60vw;
+	margin-left: 10vw;
+	background-color: yellow;
+}
+
+
+
+#chat-message-record {
+	
+	overflow-y: auto;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	/*border: 1px solid grey;*/
+	
+	
+}
+
+.message-received {
+	width: 80%;
+	background-color: teal;
+	color: white;
+	font-weight: bold;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	
+}
+
+.message-received > a {
+	
+	color: white;
+	
+}
+
+
+
+
+
+
+
+
+.chat-icon-container {
+	max-width: 20px;
+	max-height: 20px;
+}
+
+.chat-icon-container img{
+	width: 100%;
+	height: auto;
+}
+
+/* END LIST OF SEARCH RESULTS */
+
+
+
+
+.navbar-nav .navbar-right .nav-link {
+	padding-right: 5;
+	padding-left: 5;
+	margin-left: 5;
+	margin-right: 5;
+}
+
+
+textarea {
+	width: 100%;
+}
+
+
+.errors {
+	color: red
+}
+
+.navbar-super {
+	background-color: rgb(247, 128, 185);
+}
+
+.navbar-brand {
+	color: purple;
+}
+
+.navbar > .navbar-brand {
+	background-color: rgb(247, 128, 185);
+	color: purple;
+}
+
+
+.pagination {
+	margin-top: 20px;
+	margin-bottom:  40px;
+}
+
+.homepage-status {
+	text-align: center;
+	margin-top: 30px;
+	font-size: larger;
+}
+
+
+.status-row{
+	margin-top: 4em;
+	margin-bottom: 6em;
+}
+
+
+#banner_image{
+	size: 50%;s
+}
+
+.homepage-banner-container {
+	max-width: 45%;
+	max-height: 150px;
+}
+
+.homepage-banner-container img{
+	width: 100%;
+	height: auto;
+}
+
+
+.message {
+	font-size: larger;
+	margin-top: 50px;	
+}
+
+.profile-about {
+	width: 100%;
+	border:  1px solid gray;
+	padding:  50px;
+	margin-top:  10px;
+	overflow:  auto;
+}
+
+#profile-name{
+	font-size: 2em;
+	text-align: center;
+	font-weight: 500;
+	padding: .5em;
+}
+	
+.profile-text{
+	font-size: larger;
+	
+}
+
+.profile-image{
+	float: left;
+	border: 20px black;
+	margin-bottom:  10px;
+	margin-top:  10px;
+	margin-right:  10px;
+}
+
+
+.profile-about-edit{
+	position: absolute;
+	bottom: 10px;
+	right:  50px;	
+}
+
+#profile-photo-status{
+	
+	position:  absolute;
+	top: 10px;
+	left: 30px;
+	font-weight: bold;
+	color: green;
+	
+}
+
+#photoUploadForm{
+	display: none;
+}
+
+ul#interestList {
+	border: 1px solid gray;
+}
+
+ul.tagit > li.tagit-choice {
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+ul#interestList a.tagit-close > span.text-icon {
+	display: inline;
+	color: yellow;
+	padding: 6px;
+	font-size: 1.1em;
+}
+
+ul#interestList a.tagit-close:hover > span.text-icon {
+	color: blue;
+	}
+	
+ul#interestList a.tagit-close:hover{
+	text-decoration: none;
+}
+
+div[role=status]{
+	display: none;
+}
+
+#ui-id-1{
+	display: none !important;
+}
+
+#search-button{
+	background-color: purple;
+	text-shadow: 1px 1px 0px #888888;
+}
+
+#search-button:hover{
+	/*background-color: yellow;*/
+	color: yellow;
+}
+
+/*------------------------------*/
+
+
+.collapse navbar-collapse > .nav-item > .nav-link {
+	background-color: green;
+	color: black;
+
+}
+
+.nav-item-super  {
+	background-color: white;
+	color: black;
+}
+
+.nav-item > .nav-link {
+	 /* background-color: white;  */
+	color: black;
+	
+}
+
+.edit-links{
+	margin-top: 10px
+}
+
+.login-form{
+	width: 100%
+}
+
+.register-prompt{
+	font-size: 1.3em;
+	text-align: center;
+	padding: 20px;
+}
+  
+.login-form > div{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.login-form > div > button {
+	
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	border-color: blue;
+	 
+}
+
+.login-error {
+	margin-top: 10px;
+	margin-top: 10px;
+	color: red;
+}
+
+/*------------------------------*/
+
+.collapse navbar-collapse > ul > li {
+	background-color: pink;
+{
+
+.collapse navbar-collapse > ul > li > .nav-item dropdown > .dropdown-menu{
+	background-color: yellow;
+{
+
+.collapse navbar-collapse > ul > li > .nav-item dropdown > .dropdown-menu > .dropdown-divider{
+	background-color: green;
+{
+
+.collapse navbar-collapse > ul > li > .nav-item dropdown > .dropdown-menu > .dropdown-divider > .dropdown-item{
+	background-color: orange;
+{
