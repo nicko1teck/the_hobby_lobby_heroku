@@ -1,0 +1,12 @@
+target
+
+application-dev.properties
+
+bin
+
+.sts4-cache
+
+*.tmp
+
+.git
+
