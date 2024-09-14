@@ -71,15 +71,16 @@ public class App extends SpringBootServletInitializer implements WebMvcConfigure
 	
 	
 
-	
+	//https://stackoverflow.com/questions/33459740/error-no-url-for-servletcontext-resource-when-running-spring-integrated-test
 	
 	@Bean
     public TilesConfigurer tilesConfigurer() {
         TilesConfigurer tilesConfigurer = new TilesConfigurer();
-        tilesConfigurer.setDefinitions(
+        tilesConfigurer.setDefinitions("classpath:tiles.xml");
+        //tilesConfigurer.setDefinitions(
           //new String[] { "tiles.xml" });
-        	new String[] { "/WEB-INF/tiles.xml" });
-        ///  /The_Hobby_Lobby--Cloud/src/main/webapp/WEB-INF/tiles.xml
+          //new String[] { "/WEB-INF/tiles.xml" });
+        
         
         	
         tilesConfigurer.setCheckRefresh(true);
