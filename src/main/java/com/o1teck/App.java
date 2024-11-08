@@ -63,7 +63,8 @@ public class App extends SpringBootServletInitializer implements WebMvcConfigure
 	public Cloudinary cloudinaryConfig() {
 		Cloudinary cloudinary = null;
 		cloudinary = new Cloudinary();
-		cloudinary.config.cloudName = "nicko1teck";
+		cloudinary.config.cloudName="nicko1teck";
+		//cloudinary.config.cloudName = "nicko1teck";
 		cloudinary.config.apiKey = "697697678268857";
 		cloudinary.config.apiSecret = "UFH1ZXH_4UZ8XNHchIj8Lwhpszw";
 		return cloudinary;
@@ -134,7 +135,7 @@ public class App extends SpringBootServletInitializer implements WebMvcConfigure
 	}
 
 	
-
+/*
 	@Override
 	public void onStartup(ServletContext servletContext) throws ServletException {
 
@@ -147,7 +148,7 @@ public class App extends SpringBootServletInitializer implements WebMvcConfigure
 
 		super.onStartup(servletContext);
 	}
-
+*/
 	
 
 	

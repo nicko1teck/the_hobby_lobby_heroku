@@ -55,7 +55,7 @@ public class UserService implements UserDetailsService{
 	@Override
 	public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
 		
-		passwordEncoder = passwordEncoder();
+		//passwordEncoder = passwordEncoder();
 		
 		SiteUser user = userDao.findByEmail(email);
 		

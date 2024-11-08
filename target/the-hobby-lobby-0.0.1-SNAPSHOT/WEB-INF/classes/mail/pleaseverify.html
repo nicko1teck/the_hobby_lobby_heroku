@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<th:block xmlns:th="http://www.thymeleaf.org">
+
+	<!--  <span th:text="'Hello ' + ${name}"> Hi there this text will be replaced by Thymeleaf </span>  -->
+
+	Thank you for registering for the Hobby Lobby social app.
+
+	<a th:href="@{${url} + '/confirmregister?t=' + ${token}}">Please click here</a> to verify your account.
+    
+</th:block>
+
+
+
+ <!--
+
+<th:block xmlns:th="http://www.thymeleaf.org">
+
+	<p>Thank you for registering to the Spring Boot Tutorial Site</p>
+
+	<p>Please click <a th:href="@{${url} + '/confirmregister?t=' + ${token}}">here</a> to verify your email address.</p>
+                    
+</th:block>
+
+-->
+
+
+
+
+</body>
+</html>
