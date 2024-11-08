@@ -130,6 +130,16 @@
 			<artifactId>tiles-extras</artifactId>
 			<version>3.0.5</version>
 		</dependency>
+		
+		
+	<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>3.0-alpha-1</version>
+    <scope>provided</scope>
+</dependency>
+
 
 
 		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
@@ -230,27 +240,21 @@
 			<version>4.0.0.RELEASE</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.heroku/webapp-runner -->
+<dependency>
+    <groupId>com.heroku</groupId>
+    <artifactId>webapp-runner</artifactId>
+    <version>9.0.96.0</version>
+</dependency>
+
+		
+		
 	</dependencies>
 
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
+	
 	<build>
-
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-			</resource>
-
-			<resource>
-				<directory>src/main/webapp</directory>
-			</resource>
-
-			<resource>
-				<directory>static</directory>
-				<targetPath>static</targetPath>
-			</resource>
-
-		</resources>
-
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -258,28 +262,6 @@
 				<configuration>
 					<executable>true</executable>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>copy</goal>
-						</goals>
-						<configuration>
-							<artifactItems>
-								<artifactItem>
-									<groupId>com.github.jsimone</groupId>
-									<artifactId>webapp-runner</artifactId>
-									<version>9.0.13.0</version>
-									<destFileName>webapp-runner.jar</destFileName>
-								</artifactItem>
-							</artifactItems>
-						</configuration>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
